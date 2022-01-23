@@ -58,6 +58,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		521CAB91279DEE190050855A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				52410AAF279D95FD00F7A9EE /* ViewController.swift */,
+				521CAB8F279DD5610050855A /* SecondViewController.swift */,
+				521CAB92279DEE2F0050855A /* Cell */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		521CAB92279DEE2F0050855A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				52410AC7279DC2A400F7A9EE /* PersonsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		52410A9F279D95FD00F7A9EE = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				52410AAB279D95FD00F7A9EE /* AppDelegate.swift */,
-				52410AAF279D95FD00F7A9EE /* ViewController.swift */,
-				52410AC7279DC2A400F7A9EE /* PersonsTableViewCell.swift */,
+				521CAB91279DEE190050855A /* Screen */,
 				52410AC4279DAC3600F7A9EE /* Networking */,
 				52410AC3279DAC2D00F7A9EE /* Models */,
 				52410AB1279D95FD00F7A9EE /* Main.storyboard */,
-				521CAB8F279DD5610050855A /* SecondViewController.swift */,
 				52410AB4279D960000F7A9EE /* Assets.xcassets */,
 				52410AB6279D960000F7A9EE /* LaunchScreen.storyboard */,
 				52410AB9279D960000F7A9EE /* Info.plist */,
